@@ -39,7 +39,7 @@ def update_ui():
         button.config(text="I'm back")
         simulate_keypress()
     else:
-        label.config(text="Press the button to go AFK.")
+        label.config(text="Press the button to go AFK. Or press F6")
         button.config(text="Go AFK")
 def toggle_afk_with_f6(event):
     toggle_afk()
