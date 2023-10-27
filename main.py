@@ -50,7 +50,7 @@ root.geometry("400x200+100+100")
 root.resizable(False, False)
 root.attributes("-topmost", True)
 
-label = tk.Label(root, text="Press the button to go AFK")
+label = tk.Label(root, text="Press the button to go AFK.a Or press F6")
 label.pack()
 
 button = tk.Button(root, text="Go AFK", command=toggle_afk)
